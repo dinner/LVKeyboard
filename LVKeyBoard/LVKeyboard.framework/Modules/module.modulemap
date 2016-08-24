@@ -1,0 +1,6 @@
+framework module LVKeyboard {
+  umbrella header "LVKeyboard.h"
+
+  export *
+  module * { export * }
+}

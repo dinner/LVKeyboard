@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B6A7F0C1D6D6A6300B461AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A7F0B1D6D6A6300B461AB /* main.m */; };
+		7B6A7F0F1D6D6A6300B461AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A7F0E1D6D6A6300B461AB /* AppDelegate.m */; };
+		7B6A7F121D6D6A6300B461AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A7F111D6D6A6300B461AB /* ViewController.m */; };
+		7B6A7F151D6D6A6300B461AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A7F131D6D6A6300B461AB /* Main.storyboard */; };
+		7B6A7F171D6D6A6300B461AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A7F161D6D6A6300B461AB /* Assets.xcassets */; };
+		7B6A7F1A1D6D6A6300B461AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A7F181D6D6A6300B461AB /* LaunchScreen.storyboard */; };
+		7B6A7F251D6D6A6300B461AB /* LVKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A7F241D6D6A6300B461AB /* LVKeyBoardTests.m */; };
+		7B6A7F301D6D6A6300B461AB /* LVKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A7F2F1D6D6A6300B461AB /* LVKeyBoardUITests.m */; };
+		7B6A7F3E1D6D6A8B00B461AB /* LVKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6A7F3D1D6D6A8B00B461AB /* LVKeyboard.framework */; };
+		7B6A7F3F1D6D6A9000B461AB /* LVKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6A7F3D1D6D6A8B00B461AB /* LVKeyboard.framework */; };
+		7B6A7F401D6D6A9000B461AB /* LVKeyboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6A7F3D1D6D6A8B00B461AB /* LVKeyboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6A7F211D6D6A6300B461AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6A7EFF1D6D6A6300B461AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6A7F061D6D6A6300B461AB;
+			remoteInfo = LVKeyBoard;
+		};
+		7B6A7F2C1D6D6A6300B461AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6A7EFF1D6D6A6300B461AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6A7F061D6D6A6300B461AB;
+			remoteInfo = LVKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B6A7F411D6D6A9000B461AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B6A7F401D6D6A9000B461AB /* LVKeyboard.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B6A7F071D6D6A6300B461AB /* LVKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LVKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6A7F0B1D6D6A6300B461AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B6A7F0D1D6D6A6300B461AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B6A7F0E1D6D6A6300B461AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B6A7F101D6D6A6300B461AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B6A7F111D6D6A6300B461AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B6A7F141D6D6A6300B461AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B6A7F161D6D6A6300B461AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B6A7F191D6D6A6300B461AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B6A7F1B1D6D6A6300B461AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6A7F201D6D6A6300B461AB /* LVKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LVKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6A7F241D6D6A6300B461AB /* LVKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVKeyBoardTests.m; sourceTree = "<group>"; };
+		7B6A7F261D6D6A6300B461AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6A7F2B1D6D6A6300B461AB /* LVKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LVKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6A7F2F1D6D6A6300B461AB /* LVKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVKeyBoardUITests.m; sourceTree = "<group>"; };
+		7B6A7F311D6D6A6300B461AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6A7F3D1D6D6A8B00B461AB /* LVKeyboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LVKeyboard.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B6A7F041D6D6A6300B461AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6A7F3E1D6D6A8B00B461AB /* LVKeyboard.framework in Frameworks */,
+				7B6A7F3F1D6D6A9000B461AB /* LVKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A7F1D1D6D6A6300B461AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A7F281D6D6A6300B461AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6A7EFE1D6D6A6300B461AB = {
+			isa = PBXGroup;
+			children = (
+				7B6A7F091D6D6A6300B461AB /* LVKeyBoard */,
+				7B6A7F231D6D6A6300B461AB /* LVKeyBoardTests */,
+				7B6A7F2E1D6D6A6300B461AB /* LVKeyBoardUITests */,
+				7B6A7F081D6D6A6300B461AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B6A7F081D6D6A6300B461AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A7F071D6D6A6300B461AB /* LVKeyBoard.app */,
+				7B6A7F201D6D6A6300B461AB /* LVKeyBoardTests.xctest */,
+				7B6A7F2B1D6D6A6300B461AB /* LVKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B6A7F091D6D6A6300B461AB /* LVKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A7F3D1D6D6A8B00B461AB /* LVKeyboard.framework */,
+				7B6A7F0D1D6D6A6300B461AB /* AppDelegate.h */,
+				7B6A7F0E1D6D6A6300B461AB /* AppDelegate.m */,
+				7B6A7F101D6D6A6300B461AB /* ViewController.h */,
+				7B6A7F111D6D6A6300B461AB /* ViewController.m */,
+				7B6A7F131D6D6A6300B461AB /* Main.storyboard */,
+				7B6A7F161D6D6A6300B461AB /* Assets.xcassets */,
+				7B6A7F181D6D6A6300B461AB /* LaunchScreen.storyboard */,
+				7B6A7F1B1D6D6A6300B461AB /* Info.plist */,
+				7B6A7F0A1D6D6A6300B461AB /* Supporting Files */,
+			);
+			path = LVKeyBoard;
+			sourceTree = "<group>";
+		};
+		7B6A7F0A1D6D6A6300B461AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A7F0B1D6D6A6300B461AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B6A7F231D6D6A6300B461AB /* LVKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A7F241D6D6A6300B461AB /* LVKeyBoardTests.m */,
+				7B6A7F261D6D6A6300B461AB /* Info.plist */,
+			);
+			path = LVKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		7B6A7F2E1D6D6A6300B461AB /* LVKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A7F2F1D6D6A6300B461AB /* LVKeyBoardUITests.m */,
+				7B6A7F311D6D6A6300B461AB /* Info.plist */,
+			);
+			path = LVKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B6A7F061D6D6A6300B461AB /* LVKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6A7F341D6D6A6300B461AB /* Build configuration list for PBXNativeTarget "LVKeyBoard" */;
+			buildPhases = (
+				7B6A7F031D6D6A6300B461AB /* Sources */,
+				7B6A7F041D6D6A6300B461AB /* Frameworks */,
+				7B6A7F051D6D6A6300B461AB /* Resources */,
+				7B6A7F411D6D6A9000B461AB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LVKeyBoard;
+			productName = LVKeyBoard;
+			productReference = 7B6A7F071D6D6A6300B461AB /* LVKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B6A7F1F1D6D6A6300B461AB /* LVKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6A7F371D6D6A6300B461AB /* Build configuration list for PBXNativeTarget "LVKeyBoardTests" */;
+			buildPhases = (
+				7B6A7F1C1D6D6A6300B461AB /* Sources */,
+				7B6A7F1D1D6D6A6300B461AB /* Frameworks */,
+				7B6A7F1E1D6D6A6300B461AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6A7F221D6D6A6300B461AB /* PBXTargetDependency */,
+			);
+			name = LVKeyBoardTests;
+			productName = LVKeyBoardTests;
+			productReference = 7B6A7F201D6D6A6300B461AB /* LVKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B6A7F2A1D6D6A6300B461AB /* LVKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6A7F3A1D6D6A6300B461AB /* Build configuration list for PBXNativeTarget "LVKeyBoardUITests" */;
+			buildPhases = (
+				7B6A7F271D6D6A6300B461AB /* Sources */,
+				7B6A7F281D6D6A6300B461AB /* Frameworks */,
+				7B6A7F291D6D6A6300B461AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6A7F2D1D6D6A6300B461AB /* PBXTargetDependency */,
+			);
+			name = LVKeyBoardUITests;
+			productName = LVKeyBoardUITests;
+			productReference = 7B6A7F2B1D6D6A6300B461AB /* LVKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6A7EFF1D6D6A6300B461AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhanglingxiang;
+				TargetAttributes = {
+					7B6A7F061D6D6A6300B461AB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7B6A7F1F1D6D6A6300B461AB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7B6A7F061D6D6A6300B461AB;
+					};
+					7B6A7F2A1D6D6A6300B461AB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7B6A7F061D6D6A6300B461AB;
+					};
+				};
+			};
+			buildConfigurationList = 7B6A7F021D6D6A6300B461AB /* Build configuration list for PBXProject "LVKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B6A7EFE1D6D6A6300B461AB;
+			productRefGroup = 7B6A7F081D6D6A6300B461AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B6A7F061D6D6A6300B461AB /* LVKeyBoard */,
+				7B6A7F1F1D6D6A6300B461AB /* LVKeyBoardTests */,
+				7B6A7F2A1D6D6A6300B461AB /* LVKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B6A7F051D6D6A6300B461AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6A7F1A1D6D6A6300B461AB /* LaunchScreen.storyboard in Resources */,
+				7B6A7F171D6D6A6300B461AB /* Assets.xcassets in Resources */,
+				7B6A7F151D6D6A6300B461AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A7F1E1D6D6A6300B461AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A7F291D6D6A6300B461AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6A7F031D6D6A6300B461AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6A7F121D6D6A6300B461AB /* ViewController.m in Sources */,
+				7B6A7F0F1D6D6A6300B461AB /* AppDelegate.m in Sources */,
+				7B6A7F0C1D6D6A6300B461AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A7F1C1D6D6A6300B461AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6A7F251D6D6A6300B461AB /* LVKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A7F271D6D6A6300B461AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6A7F301D6D6A6300B461AB /* LVKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6A7F221D6D6A6300B461AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6A7F061D6D6A6300B461AB /* LVKeyBoard */;
+			targetProxy = 7B6A7F211D6D6A6300B461AB /* PBXContainerItemProxy */;
+		};
+		7B6A7F2D1D6D6A6300B461AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6A7F061D6D6A6300B461AB /* LVKeyBoard */;
+			targetProxy = 7B6A7F2C1D6D6A6300B461AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B6A7F131D6D6A6300B461AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6A7F141D6D6A6300B461AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B6A7F181D6D6A6300B461AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6A7F191D6D6A6300B461AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B6A7F321D6D6A6300B461AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B6A7F331D6D6A6300B461AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6A7F351D6D6A6300B461AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LVKeyBoard",
+				);
+				INFOPLIST_FILE = LVKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LVKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B6A7F361D6D6A6300B461AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LVKeyBoard",
+				);
+				INFOPLIST_FILE = LVKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LVKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B6A7F381D6D6A6300B461AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LVKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LVKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LVKeyBoard.app/LVKeyBoard";
+			};
+			name = Debug;
+		};
+		7B6A7F391D6D6A6300B461AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LVKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LVKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LVKeyBoard.app/LVKeyBoard";
+			};
+			name = Release;
+		};
+		7B6A7F3B1D6D6A6300B461AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LVKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LVKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LVKeyBoard;
+			};
+			name = Debug;
+		};
+		7B6A7F3C1D6D6A6300B461AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LVKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LVKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LVKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B6A7F021D6D6A6300B461AB /* Build configuration list for PBXProject "LVKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6A7F321D6D6A6300B461AB /* Debug */,
+				7B6A7F331D6D6A6300B461AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6A7F341D6D6A6300B461AB /* Build configuration list for PBXNativeTarget "LVKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6A7F351D6D6A6300B461AB /* Debug */,
+				7B6A7F361D6D6A6300B461AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B6A7F371D6D6A6300B461AB /* Build configuration list for PBXNativeTarget "LVKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6A7F381D6D6A6300B461AB /* Debug */,
+				7B6A7F391D6D6A6300B461AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B6A7F3A1D6D6A6300B461AB /* Build configuration list for PBXNativeTarget "LVKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6A7F3B1D6D6A6300B461AB /* Debug */,
+				7B6A7F3C1D6D6A6300B461AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B6A7EFF1D6D6A6300B461AB /* Project object */;
+}
